@@ -1780,6 +1780,11 @@ input, select, textarea {
 			width: 100%;
 			margin: 0 0 2em 0;
 		}
+        .image.featured_75{
+            display: block;
+            width: 75%;
+            margin: 0 auto 2em auto;
+        }
 
 		.image.left {
 			float: left;
@@ -2295,6 +2300,10 @@ input, select, textarea {
 			#main > section.four {
 				background-color: #e8edec;
 			}
+            #main > section.five {
+                background-color: #27272e;
+                color: #f2f2fc;
+            }
 
 /* Wide */
 
