@@ -1756,7 +1756,7 @@ input, select, textarea {
 		}
 
 		.image.avatar180 {
-			width: 156px;
+			width: 180px;
 			height: 180px;
 			background: #fff;
             
@@ -1764,7 +1764,7 @@ input, select, textarea {
 
 			.image.avatar180 img {
                 display:block;
-				width: 156px;
+				width: 180px;
 				height: 180px;
                 margin: auto;
                 border: 5px solid #002d75;
