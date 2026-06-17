@@ -1,0 +1,30 @@
+For Outreach Section:
+PUPP front and center, that's a good looking one
+Mention planetarium lecture
+Eclipse Outreach
+Within department: Peer Mentoring and undergrad mentoring stuff
+Wednesday lunch organizng
+
+Undergrad stuff can be somewhat condensed I suppose but worth including in a "My interests in outreach have a long pedigree". "Indeed my dedication to outreach dates back as far as "
+
+Research Section:
+Topics:
+    Individual Core Scale - Matt
+    Nature of the IMF - Massimo
+    CRMHD Sims of stuff - Eve
+
+
+
+CV Updates to make:
+Use newstyle off of Overleaf
+Add talk in Boston
+Add talk for JPP
+Change PUC to invited
+AstroTerps was invited
+
+Find a better way to clearly denote invited - I think split section invited and contributed
+
+Updage citation for Dynamical Transport paper
+
+
+
