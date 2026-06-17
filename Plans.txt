@@ -1,13 +1,17 @@
 For Outreach Section:
-PUPP front and center, that's a good looking one
-Mention planetarium lecture
-Eclipse Outreach
-Within department: Peer Mentoring and undergrad mentoring stuff
-Wednesday lunch organizng
+    PUPP front and center, that's a good looking one
+    Mention planetarium lecture
+    Eclipse Outreach
+    Within department: Peer Mentoring and undergrad mentoring stuff
+    Wednesday lunch organizng
+    
+    I serve as a Teaching Fellow for the Princeton Undergraduate Preparatory Program (PUPP), a program designed to help low-income, high-achieving students at Trenton-area High Schools develop into eventual first-generation college students. As a part of this immensely rewarding program, I develop and deliver weekly lessons on a variety of topics, ranging from science to rhetoric, to help my students build the skills (hard and soft) needed to flourish in the collegiate environment. In addition to developing my own teaching skills, the program has been invaluable to me as a way to give back to the community. There is no greater reward than being able to make a tangible difference in the lives of my students,and to help them achieve their potentials as the next generation of leaders and scholars.
+    
+    I also have a long-standing interest in public outreach, as I believe that sharing our discoveries with the public and inspiring the next generation of scientists are both paramount parts of effective science. I have given invited guest lectures at the NJ State Planeterium and a number of schools and Astronomy clubs. I have helped run numerous Astronomy outreach events, including interactuve public viewing the 2024 Solar Eclipse and co-organizing Astronomy programming for "Spring into Science" -- a yearly outreach event that introduces introduce literally thousands of children to the wonders of science. As an undergraduate []
+    
+    [Intra-departmental] - [Wunch] - [Peermentoring] - [Undergrad Admissions Mentoring]
 
-Undergrad stuff can be somewhat condensed I suppose but worth including in a "My interests in outreach have a long pedigree". "Indeed my dedication to outreach dates back as far as "
-
-Research Section:
+   Research Section:
 Topics:
     Individual Core Scale - Matt
     Nature of the IMF - Massimo

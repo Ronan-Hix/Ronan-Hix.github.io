@@ -216,16 +216,9 @@ input, select, textarea {
     .container {
         margin: 0 auto;
         max-width: 100%;
-        width: 1400px;
+        width: 1800px;
     }
 
-        @media screen and (min-width: 961px) and (max-width: 1880px) {
-
-            .container {
-                width: 1200px;
-            }
-
-        }
 
         @media screen and (min-width: 961px) and (max-width: 1620px) {
 
@@ -234,6 +227,7 @@ input, select, textarea {
             }
 
         }
+
 
         @media screen and (min-width: 961px) and (max-width: 1320px) {
 
@@ -502,7 +496,7 @@ input, select, textarea {
                     padding-top: 80px;
                 }
 
-        @media screen and (min-width: 961px) and (max-width: 1880px) {
+        @media screen and (min-width: 961px) and (max-width: 2880px) {
 
             .row {
                 display: flex;
@@ -745,7 +739,7 @@ input, select, textarea {
                             padding-top: 80px;
                         }
 
-        @media screen and (min-width: 961px) and (max-width: 1880px) {
+        @media screen and (min-width: 961px) and (max-width: 2880px) {
 
             .row {
                 display: flex;
@@ -988,7 +982,7 @@ input, select, textarea {
                             padding-top: 80px;
                         }
 
-        @media screen and (min-width: 961px) and (max-width: 1880px) {
+        @media screen and (min-width: 961px) and (max-width: 2880px) {
 
             .row {
                 display: flex;
@@ -1231,7 +1225,7 @@ input, select, textarea {
                             padding-top: 80px;
                         }
 
-        @media screen and (min-width: 961px) and (max-width: 1880px) {
+        @media screen and (min-width: 961px) and (max-width: 2880px) {
 
             .row {
                 display: flex;
@@ -1474,7 +1468,7 @@ input, select, textarea {
                             padding-top: 80px;
                         }
 
-        @media screen and (min-width: 961px) and (max-width: 1880px) {
+        @media screen and (min-width: 961px) and (max-width: 2880px) {
 
             .row {
                 display: flex;
@@ -1717,7 +1711,7 @@ input, select, textarea {
                             padding-top: 80px;
                         }
 
-        @media screen and (min-width: 961px) and (max-width: 1880px) {
+        @media screen and (min-width: 961px) and (max-width: 2880px) {
 
             .row {
                 display: flex;
@@ -1960,7 +1954,7 @@ input, select, textarea {
                             padding-top: 80px;
                         }
 
-        @media screen and (min-width: 961px) and (max-width: 1880px) {
+        @media screen and (min-width: 961px) and (max-width: 2880px) {
 
             .row {
                 display: flex;
@@ -2203,7 +2197,7 @@ input, select, textarea {
                             padding-top: 80px;
                         }
 
-        @media screen and (min-width: 961px) and (max-width: 1880px) {
+        @media screen and (min-width: 961px) and (max-width: 2880px) {
 
             .row {
                 display: flex;
@@ -2446,7 +2440,7 @@ input, select, textarea {
                             padding-top: 80px;
                         }
 
-        @media screen and (min-width: 961px) and (max-width: 1880px) {
+        @media screen and (min-width: 961px) and (max-width: 2880px) {
 
             .row {
                 display: flex;
@@ -2689,7 +2683,7 @@ input, select, textarea {
                             padding-top: 80px;
                         }
 
-        @media screen and (min-width: 961px) and (max-width: 1880px) {
+        @media screen and (min-width: 961px) and (max-width: 2880px) {
 
             .row {
                 display: flex;
@@ -4063,7 +4057,6 @@ html {
     font-weight: 600;
     color: #333;
     letter-spacing: -0.5px;
-    text-transform: capitalize;
     margin: 0;
 }
 
@@ -4387,7 +4380,7 @@ html {
 
 /* Wide */
 
-    @media screen and (min-width: 961px) and (max-width: 1880px) {
+    @media screen and (min-width: 961px) {
 
         /* Basic */
 
@@ -4904,24 +4897,82 @@ html {
 
 /* Global button styling */
 .button {
-    display: inline-block;
-    padding: 0.75em 1.5em;
+    align-items: center;
+    appearance: none;
     background-color: #5C8AB0;
-    color: #fff;
-    text-decoration: none;
-    border: none;
     border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 7px 14px, rgba(45, 35, 66, 0.3) 0 18px 28px -5px, #4a6f8f 0 -7px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
     cursor: pointer;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
+    display: inline-flex;
+    font-family: "JetBrains Mono", "Courier New", monospace;
+    height: 84px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 28px;
+    padding-right: 28px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.button:focus {
+    box-shadow: #4a6f8f 0 0 0 2.5px inset, rgba(45, 35, 66, 0.4) 0 7px 14px, rgba(45, 35, 66, 0.3) 0 18px 28px -5px, #4a6f8f 0 -7px 0 inset;
 }
 
 .button:hover {
-    background-color: #4a6f8f;
+    background-color: #5da3cc;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 10px 20px, rgba(45, 35, 66, 0.3) 0 18px 28px -5px, #4a6f8f 0 -7px 0 inset;
+    transform: translateY(-5px);
 }
 
 .button:active {
-    background-color: #3d5a75;
+    background-color: #4a6f8f;
+    box-shadow: #3d5a75 0 7px 14px inset;
+    transform: translateY(5px);
+}
+
+/* Research section buttons - 75% of normal size */
+#main section[id^="project-"] .button {
+    height: 63px;
+    font-size: 21px;
+    padding-left: 21px;
+    padding-right: 21px;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 5.25px 10.5px, rgba(45, 35, 66, 0.3) 0 13.5px 21px -4px, #4a6f8f 0 -5.25px 0 inset;
+}
+
+#main section[id^="project-"] .button:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 7.5px 15px, rgba(45, 35, 66, 0.3) 0 13.5px 21px -4px, #4a6f8f 0 -5.25px 0 inset;
+    transform: translateY(-3.75px);
+}
+
+#main section[id^="project-"] .button:active {
+    box-shadow: #3d5a75 0 5.25px 10.5px inset;
+    transform: translateY(3.75px);
+}
+
+#main section[id^="project-"] .button:focus {
+    box-shadow: #4a6f8f 0 0 0 2px inset, rgba(45, 35, 66, 0.4) 0 5.25px 10.5px, rgba(45, 35, 66, 0.3) 0 13.5px 21px -4px, #4a6f8f 0 -5.25px 0 inset;
+}
+
+/* Contact section CV button - same height but wider */
+#contact .button {
+    height: 84px;
+    width: 100%;
+    max-width: none;
 }
 
 /* Section Header Styling - Make them more prominent */
@@ -4936,6 +4987,119 @@ html {
     font-weight: 600;
     color: #333;
     letter-spacing: -0.5px;
-    text-transform: capitalize;
     margin: 0;
+}
+
+/* ========== ULTRA-WIDE SCREEN SUPPORT (> 1880px) - COMMENTED OUT FOR TESTING ========== */
+/*
+@media screen and (min-width: 1881px) {
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    body {
+        overflow-x: hidden;
+        background: #fff;
+    }
+    
+    #header {
+        position: fixed !important;
+        display: flex !important;
+        left: 0 !important;
+        top: 0 !important;
+        width: 375px !important;
+        height: 100vh !important;
+        z-index: 10000 !important;
+    }
+    
+    #main {
+        margin-left: 375px !important;
+        width: calc(100% - 375px) !important;
+        max-width: none !important;
+        display: block !important;
+    }
+    
+    #main > section {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 4em 2em !important;
+        box-sizing: border-box;
+        overflow: visible !important;
+        position: relative;
+    }
+    
+    #main > section .container {
+        width: 1200px !important;
+        max-width: 1200px !important;
+        margin: 0 auto !important;
+    }
+    
+    .container {
+        width: 1200px !important;
+        max-width: 1200px !important;
+        margin: 0 auto !important;
+    }
+    
+    .research-grid {
+        width: 100% !important;
+        max-width: 1100px !important;
+        margin: 0 auto !important;
+    }
+    
+    #footer {
+        margin-left: 375px !important;
+        width: calc(100% - 375px) !important;
+        box-sizing: border-box;
+    }
+    
+    .button {
+        font-size: 28px !important;
+        height: 84px !important;
+        display: inline-flex !important;
+    }
+    
+    #main section[id^="project-"] .button {
+        font-size: 21px !important;
+        height: 63px !important;
+    }
+    
+    #contact .button {
+        height: 84px !important;
+        width: 48% !important;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .image.fit img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
+    }
+}
+*/
+
+/* ========== BUTTON DESIGN VARIANTS (Legacy - kept for reference) ========== */
+
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
 }
