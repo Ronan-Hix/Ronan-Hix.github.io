@@ -215,7 +215,7 @@ input, select, textarea {
 
     .container {
         margin: 0 auto;
-        max-width: 100%;
+        max-width: 1800px;/*100%;*/
         width: 1800px;
     }
 
