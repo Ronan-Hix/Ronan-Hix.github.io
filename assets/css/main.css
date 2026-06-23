@@ -215,8 +215,8 @@ input, select, textarea {
 
     .container {
         margin: 0 auto;
-        max-width: 1800px;/*100%;*/
-        width: 2400px;
+        max-width: 1200px;
+        width: 100%;
     }
 
 
@@ -1259,6 +1259,8 @@ input, select, textarea {
         .image img {
             display: block;
             width: 100%;
+            max-width: 100%;
+            height: auto;
         }
 
         .image.avatar180 {
